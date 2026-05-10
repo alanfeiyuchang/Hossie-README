@@ -84,8 +84,8 @@
     <path d="M 2672 1984 L 2472 1984 M 2672 1984 L 2672 1784"/>
   </g>
 
-  <!-- Card fan: pivot at (700, 2020) — cards arc up from the bottom -->
-  <g transform="translate(700 2020)" filter="url(#cardShadow)">
+  <!-- Card fan: pivot at (700, 1760) — cards visually centered vertically -->
+  <g transform="translate(700 1760)" filter="url(#cardShadow)">
     <!-- Card 1: 9 spades -->
     <g transform="rotate(-36) translate(-170 -1010)">
       <use href="#card" width="340" height="500"/>
