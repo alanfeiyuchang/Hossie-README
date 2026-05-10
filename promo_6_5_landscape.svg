@@ -88,8 +88,8 @@
       <text x="40" y="78" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14">9</text>
       <text x="40" y="138" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14">♠</text>
       <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="140" fill="#0A1F14">♠</text>
-      <text x="240" y="372" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14" transform="rotate(180 240 372)">9</text>
-      <text x="240" y="312" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14" transform="rotate(180 240 312)">♠</text>
+      <text x="224" y="348" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14" transform="rotate(180 224 348)">9</text>
+      <text x="224" y="288" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14" transform="rotate(180 224 288)">♠</text>
     </g>
 
     <!-- Card 2: 10 of hearts -->
@@ -98,8 +98,8 @@
       <text x="40" y="78" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333">10</text>
       <text x="40" y="138" font-family="Arial, sans-serif" font-size="58" fill="#D93333">♥</text>
       <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="140" fill="#D93333">♥</text>
-      <text x="240" y="372" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333" transform="rotate(180 240 372)">10</text>
-      <text x="240" y="312" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#D93333" transform="rotate(180 240 312)">♥</text>
+      <text x="224" y="348" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333" transform="rotate(180 224 348)">10</text>
+      <text x="224" y="288" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#D93333" transform="rotate(180 224 288)">♥</text>
     </g>
 
     <!-- Card 3: J clubs (left bower) -->
@@ -108,21 +108,18 @@
       <text x="40" y="78" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14">J</text>
       <text x="40" y="138" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14">♣</text>
       <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" fill="#0A1F14">♣</text>
-      <text x="240" y="372" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14" transform="rotate(180 240 372)">J</text>
-      <text x="240" y="312" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14" transform="rotate(180 240 312)">♣</text>
+      <text x="224" y="348" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14" transform="rotate(180 224 348)">J</text>
+      <text x="224" y="288" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14" transform="rotate(180 224 288)">♣</text>
     </g>
 
-    <!-- Card 4: J diamonds (right bower) - GOLD HIGHLIGHTED -->
+    <!-- Card 4: J diamonds -->
     <g transform="rotate(8) translate(-140 -780)">
       <use href="#card" width="280" height="410"/>
-      <rect x="9" y="9" width="262" height="392" rx="24" ry="24" fill="none" stroke="url(#goldShine)" stroke-width="5"/>
       <text x="40" y="78" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333">J</text>
       <text x="40" y="138" font-family="Arial, sans-serif" font-size="58" fill="#D93333">♦</text>
       <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" fill="#D93333">♦</text>
-      <text x="240" y="372" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333" transform="rotate(180 240 372)">J</text>
-      <text x="240" y="312" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#D93333" transform="rotate(180 240 312)">♦</text>
-      <!-- Tiny crown for the trump -->
-      <path d="M 110 356 L 122 332 L 140 348 L 158 332 L 170 356 Z" fill="url(#goldShine)" stroke="#7E5A11" stroke-width="1.5"/>
+      <text x="224" y="348" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333" transform="rotate(180 224 348)">J</text>
+      <text x="224" y="288" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#D93333" transform="rotate(180 224 288)">♦</text>
     </g>
 
     <!-- Card 5: K spades -->
@@ -131,8 +128,8 @@
       <text x="40" y="78" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14">K</text>
       <text x="40" y="138" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14">♠</text>
       <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" fill="#0A1F14">♠</text>
-      <text x="240" y="372" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14" transform="rotate(180 240 372)">K</text>
-      <text x="240" y="312" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14" transform="rotate(180 240 312)">♠</text>
+      <text x="224" y="348" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#0A1F14" transform="rotate(180 224 348)">K</text>
+      <text x="224" y="288" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#0A1F14" transform="rotate(180 224 288)">♠</text>
     </g>
 
     <!-- Card 6: A hearts -->
@@ -141,8 +138,8 @@
       <text x="40" y="78" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333">A</text>
       <text x="40" y="138" font-family="Arial, sans-serif" font-size="58" fill="#D93333">♥</text>
       <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="180" fill="#D93333">♥</text>
-      <text x="240" y="372" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333" transform="rotate(180 240 372)">A</text>
-      <text x="240" y="312" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#D93333" transform="rotate(180 240 312)">♥</text>
+      <text x="224" y="348" text-anchor="end" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#D93333" transform="rotate(180 224 348)">A</text>
+      <text x="224" y="288" text-anchor="end" font-family="Arial, sans-serif" font-size="58" fill="#D93333" transform="rotate(180 224 288)">♥</text>
     </g>
   </g>
 
