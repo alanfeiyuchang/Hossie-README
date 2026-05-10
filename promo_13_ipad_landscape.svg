@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2752" height="2064" viewBox="0 0 2752 2064">
+  <defs>
+    <linearGradient id="felt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1F14"/>
+      <stop offset="55%" stop-color="#0F2E1F"/>
+      <stop offset="100%" stop-color="#06180D"/>
+    </linearGradient>
+
+    <radialGradient id="spotlightLeft" cx="28%" cy="60%" r="55%">
+      <stop offset="0%" stop-color="#1F5635" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0F2E1F" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="spotlightTitle" cx="72%" cy="42%" r="42%">
+      <stop offset="0%" stop-color="#3E2A06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0F2E1F" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE9A8"/>
+      <stop offset="35%" stop-color="#F4D684"/>
+      <stop offset="55%" stop-color="#E1B14A"/>
+      <stop offset="80%" stop-color="#B98620"/>
+      <stop offset="100%" stop-color="#7E5A11"/>
+    </linearGradient>
+
+    <linearGradient id="goldThin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E5A11"/>
+      <stop offset="50%" stop-color="#F4D684"/>
+      <stop offset="100%" stop-color="#7E5A11"/>
+    </linearGradient>
+
+    <linearGradient id="cardFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EFE6D2"/>
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="80%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="32" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <symbol id="card" viewBox="0 0 340 500">
+      <rect x="3" y="3" width="334" height="494" rx="30" ry="30" fill="url(#cardFill)" stroke="#C9B989" stroke-width="3"/>
+      <rect x="16" y="16" width="308" height="468" rx="22" ry="22" fill="none" stroke="#E8DFC7" stroke-width="1.5"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="2752" height="2064" fill="url(#felt)"/>
+  <rect width="2752" height="2064" fill="url(#spotlightLeft)"/>
+  <rect width="2752" height="2064" fill="url(#spotlightTitle)"/>
+
+  <!-- Sparkle dots -->
+  <g fill="#F4D684" opacity="0.22">
+    <circle cx="220" cy="200" r="3.5"/>
+    <circle cx="380" cy="380" r="2.6"/>
+    <circle cx="160" cy="600" r="3"/>
+    <circle cx="2540" cy="240" r="3.2"/>
+    <circle cx="2640" cy="500" r="2.4"/>
+    <circle cx="2440" cy="1080" r="2.8"/>
+    <circle cx="2600" cy="1200" r="3.4"/>
+    <circle cx="180" cy="1140" r="2.4"/>
+    <circle cx="320" cy="1280" r="2.6"/>
+    <circle cx="2240" cy="160" r="2.4"/>
+    <circle cx="100" cy="820" r="2.8"/>
+    <circle cx="2680" cy="820" r="2.4"/>
+    <circle cx="2400" cy="1620" r="3"/>
+    <circle cx="200" cy="1820" r="2.8"/>
+    <circle cx="2620" cy="1900" r="2.6"/>
+    <circle cx="120" cy="1480" r="3.2"/>
+  </g>
+
+  <!-- Gold corner brackets -->
+  <g stroke="url(#goldThin)" stroke-width="3" fill="none" opacity="0.7" stroke-linecap="round">
+    <path d="M 80 80 L 280 80 M 80 80 L 80 280"/>
+    <path d="M 2672 80 L 2472 80 M 2672 80 L 2672 280"/>
+    <path d="M 80 1984 L 280 1984 M 80 1984 L 80 1784"/>
+    <path d="M 2672 1984 L 2472 1984 M 2672 1984 L 2672 1784"/>
+  </g>
+
+  <!-- Card fan: pivot at (700, 2020) — cards arc up from the bottom -->
+  <g transform="translate(700 2020)" filter="url(#cardShadow)">
+    <!-- Card 1: 9 spades -->
+    <g transform="rotate(-36) translate(-170 -1010)">
+      <use href="#card" width="340" height="500"/>
+      <text x="48" y="96" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#0A1F14">9</text>
+      <text x="48" y="168" font-family="Arial, sans-serif" font-size="70" fill="#0A1F14">♠</text>
+      <text x="170" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="170" fill="#0A1F14">♠</text>
+      <text x="272" y="422" text-anchor="end" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#0A1F14" transform="rotate(180 272 422)">9</text>
+      <text x="272" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="70" fill="#0A1F14" transform="rotate(180 272 350)">♠</text>
+    </g>
+
+    <!-- Card 2: 10 hearts -->
+    <g transform="rotate(-22) translate(-170 -1010)">
+      <use href="#card" width="340" height="500"/>
+      <text x="48" y="96" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#D93333">10</text>
+      <text x="48" y="168" font-family="Arial, sans-serif" font-size="70" fill="#D93333">♥</text>
+      <text x="170" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="170" fill="#D93333">♥</text>
+      <text x="272" y="422" text-anchor="end" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#D93333" transform="rotate(180 272 422)">10</text>
+      <text x="272" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="70" fill="#D93333" transform="rotate(180 272 350)">♥</text>
+    </g>
+
+    <!-- Card 3: J clubs -->
+    <g transform="rotate(-8) translate(-170 -1010)">
+      <use href="#card" width="340" height="500"/>
+      <text x="48" y="96" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#0A1F14">J</text>
+      <text x="48" y="168" font-family="Arial, sans-serif" font-size="70" fill="#0A1F14">♣</text>
+      <text x="170" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="184" fill="#0A1F14">♣</text>
+      <text x="272" y="422" text-anchor="end" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#0A1F14" transform="rotate(180 272 422)">J</text>
+      <text x="272" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="70" fill="#0A1F14" transform="rotate(180 272 350)">♣</text>
+    </g>
+
+    <!-- Card 4: J diamonds -->
+    <g transform="rotate(8) translate(-170 -1010)">
+      <use href="#card" width="340" height="500"/>
+      <text x="48" y="96" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#D93333">J</text>
+      <text x="48" y="168" font-family="Arial, sans-serif" font-size="70" fill="#D93333">♦</text>
+      <text x="170" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="184" fill="#D93333">♦</text>
+      <text x="272" y="422" text-anchor="end" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#D93333" transform="rotate(180 272 422)">J</text>
+      <text x="272" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="70" fill="#D93333" transform="rotate(180 272 350)">♦</text>
+    </g>
+
+    <!-- Card 5: K spades -->
+    <g transform="rotate(22) translate(-170 -1010)">
+      <use href="#card" width="340" height="500"/>
+      <text x="48" y="96" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#0A1F14">K</text>
+      <text x="48" y="168" font-family="Arial, sans-serif" font-size="70" fill="#0A1F14">♠</text>
+      <text x="170" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="184" fill="#0A1F14">♠</text>
+      <text x="272" y="422" text-anchor="end" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#0A1F14" transform="rotate(180 272 422)">K</text>
+      <text x="272" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="70" fill="#0A1F14" transform="rotate(180 272 350)">♠</text>
+    </g>
+
+    <!-- Card 6: A hearts -->
+    <g transform="rotate(36) translate(-170 -1010)">
+      <use href="#card" width="340" height="500"/>
+      <text x="48" y="96" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#D93333">A</text>
+      <text x="48" y="168" font-family="Arial, sans-serif" font-size="70" fill="#D93333">♥</text>
+      <text x="170" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="220" fill="#D93333">♥</text>
+      <text x="272" y="422" text-anchor="end" font-family="Georgia, serif" font-size="78" font-weight="bold" fill="#D93333" transform="rotate(180 272 422)">A</text>
+      <text x="272" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="70" fill="#D93333" transform="rotate(180 272 350)">♥</text>
+    </g>
+  </g>
+
+  <!-- Right side: title + bullets, roughly vertically centered -->
+  <g transform="translate(1500 0)">
+    <!-- Eyebrow line -->
+    <g transform="translate(0 700)">
+      <line x1="0" y1="0" x2="110" y2="0" stroke="url(#goldThin)" stroke-width="3.5"/>
+      <text x="132" y="14" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="600" fill="#F4D684" letter-spacing="8">A TRICK-TAKING CARD GAME</text>
+    </g>
+
+    <!-- HOSSIE wordmark -->
+    <text x="0" y="950" font-family="Georgia, 'Times New Roman', serif" font-size="240" font-weight="bold" fill="url(#goldShine)" letter-spacing="-1">HOSSIE</text>
+
+    <!-- Tagline -->
+    <text x="0" y="1080" font-family="Georgia, serif" font-style="italic" font-size="80" fill="#FAF5EB">Luck and Decision.</text>
+
+    <!-- Feature bullets -->
+    <g transform="translate(0 1240)" font-family="Helvetica, Arial, sans-serif" font-size="48" fill="#FAF5EB">
+      <g transform="translate(0 0)">
+        <circle cx="14" cy="-14" r="10" fill="#F4D684"/>
+        <text x="52" y="0">2v2 partners · 24 cards · 6 tricks per round</text>
+      </g>
+      <g transform="translate(0 84)">
+        <circle cx="14" cy="-14" r="10" fill="#F4D684"/>
+        <text x="52" y="0">High · Low · Jack-of-suit modes with bowers</text>
+      </g>
+      <g transform="translate(0 168)">
+        <circle cx="14" cy="-14" r="10" fill="#F4D684"/>
+        <text x="52" y="0">Solo vs bots · Local LAN · Online rooms</text>
+      </g>
+      <g transform="translate(0 252)">
+        <circle cx="14" cy="-14" r="10" fill="#F4D684"/>
+        <text x="52" y="0">English · 简体中文 · iPhone &amp; iPad</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="2752" height="2064" fill="url(#vignette)" pointer-events="none"/>
+</svg>
