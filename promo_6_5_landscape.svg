@@ -155,13 +155,13 @@
     </g>
 
     <!-- HOSSIE wordmark -->
-    <text x="0" y="560" font-family="Georgia, 'Times New Roman', serif" font-size="310" font-weight="bold" fill="url(#goldShine)" letter-spacing="-2">HOSSIE</text>
+    <text x="0" y="520" font-family="Georgia, 'Times New Roman', serif" font-size="240" font-weight="bold" fill="url(#goldShine)" letter-spacing="-1">HOSSIE</text>
 
     <!-- Tagline -->
-    <text x="0" y="690" font-family="Georgia, serif" font-style="italic" font-size="72" fill="#FAF5EB">Bid, swap, and take the trick.</text>
+    <text x="0" y="640" font-family="Georgia, serif" font-style="italic" font-size="78" fill="#FAF5EB">Luck and Decision.</text>
 
     <!-- Feature bullets -->
-    <g transform="translate(0 800)" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#FAF5EB">
+    <g transform="translate(0 760)" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#FAF5EB">
       <g transform="translate(0 0)">
         <circle cx="14" cy="-14" r="9" fill="#F4D684"/>
         <text x="50" y="0">2v2 partners · 24 cards · 6 tricks per round</text>
